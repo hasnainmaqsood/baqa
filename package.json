@@ -1,0 +1,22 @@
+{
+  "name": "baqal-dashboard-supabase",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "description": "Baqal shop dashboard backed by Supabase. Open your Supabase project, go to SQL Editor, paste supabase.sql, and run it.",
+  "keywords": [],
+  "type": "commonjs"
+}
